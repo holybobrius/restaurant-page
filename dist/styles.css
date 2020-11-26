@@ -1,0 +1,26 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    font-family: 'Alatsi', sans-serif;
+    color: white;
+}
+
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 120px;
+    margin: 0;
+}
+
+.main-info-container {
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
