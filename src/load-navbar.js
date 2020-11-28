@@ -1,5 +1,6 @@
 import { loadMainPage } from "./load-page";
 import { loadMenu } from "./menu";
+import { loadContacts } from "./contacts"
 
 function loadNavbar() {
     const content = document.querySelector('#content');
@@ -45,6 +46,7 @@ function loadNavbar() {
     const nav_link3 = document.createElement('a');
     nav_link3.classList.add('nav-link');
     nav_link3.setAttribute("href", "#");
+    nav_link3.onclick = loadContacts;
     const icon3 = document.createElement('i');
     icon3.classList.add('fas');
     icon3.classList.add('fa-address-book');
